@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Header</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="comman.css">
+    <link rel="stylesheet" href="usersList.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div class="header">
+    <div class="app-name">
+        User Management
+    </div>
+    <div class="app-nav">
+        <div class="btn-danger"> <i class="material-icons icon">&#xE15C;</i>  <div>Delete</div></div>
+        <a href="Form.html" class="btn-success"> <i class="material-icons icon">&#xE147;</i>  <div>Add New</div></a>
+    </div>
+</div>
+
+<div style="text-align: center">
+    <h2 style="color:#6e6e6e">Users List</h2>
+    <table class="user-list">
+        <thead>
+        <th><input class="scale" type="checkbox"></th>
+        <th><span>Image</span></th>
+        <th><span>UserName</span></th>
+        <th><span>Email</span></th>
+        <th><span>Address</span></th>
+        <th><span>Phone</span></th>
+        <th><span>Actions</span></th>
+        </thead>
+        <tbody>
+        <tr>
+            <td><input class="scale" type="checkbox"></td>
+            <td><img src="image.png" width="50" height="50" style="border-radius: 50%"/></td>
+            <td><span>Maliksamad2019</span></td>
+            <td><span>maliksamad2019@gmail.com</span></td>
+            <td><span>Akora khattak, kpk, pakistan</span></td>
+            <td><span>+92 3361198565</span></td>
+            <td>
+                <span>
+                    <a class="material-icons edit" title="Edit">&#xE254;</a>
+                    <a class="material-icons delete" title="Delete">&#xE872;</a>
+                </span>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input class="scale" type="checkbox"></td>
+            <td><img src="image.png" width="50" height="50" style="border-radius: 50%"/></td>
+            <td><span>Maliksamad2019</span></td>
+            <td><span>maliksamad2019@gmail.com</span></td>
+            <td><span>Akora khattak, kpk, pakistan</span></td>
+            <td><span>+92 3361198565</span></td>
+            <td>
+                <span>
+                    <a class="material-icons edit" title="Edit">&#xE254;</a>
+                    <a class="material-icons delete" title="Delete">&#xE872;</a>
+                </span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="form-div">
+        <form>
+            <h2>Add New User</h2>
+            <div class="inputFields">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+
+                <br>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+
+                <br>
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address">
+
+                <br>
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone">
+
+                <br>
+                <label for="image">Image</label>
+                <input type="file" dataformatas=".jpg" id="image" name="image">
+            </div>
+            <div class="form-controls">
+                <input type="button" value="Cancel">
+                <input type="button" style="border: solid #509e50 2px" value="Add" class="btn-success">
+            </div>
+        </form>
+    </div>
+
+    <div class="form-div">
+        <form>
+            <h2>Edit User</h2>
+            <div class="inputFields">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+
+                <br>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+
+                <br>
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address">
+
+                <br>
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone">
+
+                <br>
+                <label for="image">Image</label>
+                <input type="file" dataformatas=".jpg" id="image" name="image">
+            </div>
+            <div class="form-controls">
+                <input type="button" value="Cancel">
+                <input type="button" style="border: solid #509e50 2px" value="Add" class="btn-success">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

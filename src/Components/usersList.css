@@ -1,0 +1,63 @@
+
+.scale{
+    transform: scale(1.5);
+}
+
+.searchForm input{
+    padding: 10px 15px;
+    width: 50%; 
+    margin: 10px;
+}
+ 
+.profile-image{
+    border-radius: 50%; 
+    width: 75px;
+    height: 74px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+tr{
+    display: table-row;
+    border-bottom: solid black 1px;
+    cursor: default;
+}
+tr:hover{
+    transform: scale(1.05);
+}
+
+.user-list>tbody>tr>td,.user-list>tbody>tr>th,.user-list>thead>tr>td,.user-list>thead>tr>th {
+    padding: 10px 20px;
+    text-align: left;
+    line-height: 1.42857143;
+    vertical-align: top;
+    margin: 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-list>tbody>tr:first-of-type{
+    font-weight: 800;
+    font-size: large;
+}
+
+.user-list{
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #6e6e6e;
+}
+
+.edit{
+    color: #4c9e34;
+    cursor: pointer;
+}
+
+.delete{
+    cursor: pointer;
+    color: darkred;
+}
+.delete:hover, .edit:hover {
+    transform: scale(1.2);
+}
