@@ -1,6 +1,6 @@
 # Manage User Details
 
-# [Completed]
+### [Completed]
 1 - Main page having all the user listed with following information.
 
 	FirstName | LastName | Email | Address | View/Edit/Delete
@@ -8,7 +8,7 @@
 	then image will also be displayed with dimensions 75x75.
 ------------------------------------------------------------------------------------------------------------------
 
-# [Completed]
+### [Completed]
 2 - Search Field 
 	
 	The field will be placed at the top of list that will filter records 
@@ -16,7 +16,7 @@
 	(Make sure data is filtering on onChange event of search field).
 ------------------------------------------------------------------------------------------------------------------
 
-# [Completed]
+### [Completed]
 3 - Add User Information 
 
 	1. FirstName								[ ^[a-z A-Z]{5,10}$ ]
@@ -53,7 +53,7 @@
 	# On submit store the data in local storage with User_Details collection name.
 ------------------------------------------------------------------------------------------------------------------
 
-# [Completed]
+### [Completed]
 4 - Edit User Details
 
 	On edit - pull the selected record from localStorage 
@@ -62,12 +62,12 @@
 	
 ------------------------------------------------------------------------------------------------------------------
 
-# [Completed]
+### [Completed]
 5 - Delete the selected record from localStorage.
 
 ------------------------------------------------------------------------------------------------------------------
 
-# [Completed]
+### [Completed]
 6 - Multiple delete (optional but ++)
 
 	Add checkboxes with all the records in listing 
@@ -76,7 +76,7 @@
 	
 ------------------------------------------------------------------------------------------------------------------
 
-# [Completed]
+### [Completed]
 7 - UI (optional but +++)
 
 	The good UI will add 3 more points.
