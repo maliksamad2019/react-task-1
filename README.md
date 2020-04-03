@@ -1,5 +1,5 @@
 <h1 style="text-align: center">Manage User Details</h1>
-<h3>Scrol To</h3>
+<h3>Scroll To</h3>
 <div style="margin-left: 100px;">
 <a href="#Completed">  1. Main page having all the user listed with following information. </a> <br>
 <a href="#Completed-1">  2. Search Field. </a> <br>
