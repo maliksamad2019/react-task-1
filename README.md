@@ -1,20 +1,23 @@
-### Manage User Details
+# Manage User Details
 
-1 - Main page having all the user listed with following information				[Done]
+# [Completed]
+1 - Main page having all the user listed with following information.
 
 	FirstName | LastName | Email | Address | View/Edit/Delete
 	If someone uploading image with user details 
 	then image will also be displayed with dimensions 75x75.
 ------------------------------------------------------------------------------------------------------------------
 
-2 - Search Field																[Done]
+# [Completed]
+2 - Search Field 
 	
 	The field will be placed at the top of list that will filter records 
 	by matching the keyword with FirstName and LastName. 
 	(Make sure data is filtering on onChange event of search field).
 ------------------------------------------------------------------------------------------------------------------
 
-3 - Add User Information														[Done]
+# [Completed]
+3 - Add User Information 
 
 	1. FirstName								[ ^[a-z A-Z]{5,10}$ ]
 			(Minimum 5 characters) 
@@ -46,10 +49,12 @@
 
 	7. Any other fields (optional)
 	
-On submit store the data in local storage with User_Details collection name.
+	
+	# On submit store the data in local storage with User_Details collection name.
 ------------------------------------------------------------------------------------------------------------------
 
-4 - Edit User Details														[Done]
+# [Completed]
+4 - Edit User Details
 
 	On edit - pull the selected record from localStorage 
 	and populate all the fields in User Form 
@@ -57,11 +62,13 @@ On submit store the data in local storage with User_Details collection name.
 	
 ------------------------------------------------------------------------------------------------------------------
 
-5 - Delete the selected record from localStorage.							[Done]
+# [Completed]
+5 - Delete the selected record from localStorage.
 
 ------------------------------------------------------------------------------------------------------------------
 
-6 - Multiple delete (optional but ++)										[Done]
+# [Completed]
+6 - Multiple delete (optional but ++)
 
 	Add checkboxes with all the records in listing 
 	and then select multiple records and delete at once.
@@ -69,7 +76,8 @@ On submit store the data in local storage with User_Details collection name.
 	
 ------------------------------------------------------------------------------------------------------------------
 
-7 - UI (optional but +++)													[Done]
+# [Completed]
+7 - UI (optional but +++)
 
 	The good UI will add 3 more points.
 ------------------------------------------------------------------------------------------------------------------
