@@ -1,5 +1,17 @@
 # Manage User Details
-<a href="#Completed1"> goto </a>
+#### Scrol To
+
+	<a href="#Completed">  1. Main page having all the user listed with following information. </a>
+	<a href="#Completed-1">  2. Search Field. </a>
+	<a href="#Completed-2">  3. Add User Information. </a>
+	<a href="#Completed-3">  4. Edit User Details. </a>
+	<a href="#Completed-4">  5. Delete the selected record from localStorage. </a>
+	<a href="#Completed-5">  6. Multiple delete (optional but ++). </a>
+	<a href="#Completed-6">  7. UI (optional but +++). </a> 
+
+------------------------------------------------------------------------------------------------------------------
+
+
 ### [Completed]
 1 - Main page having all the user listed with following information.
 
