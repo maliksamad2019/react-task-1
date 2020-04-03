@@ -1,9 +1,7 @@
-
-##################################################################################################################
-########################################	 Manage User Details	##############################################
-##################################################################################################################
+### Manage User Details
 
 1 - Main page having all the user listed with following information				[Done]
+
 	FirstName | LastName | Email | Address | View/Edit/Delete
 	If someone uploading image with user details 
 	then image will also be displayed with dimensions 75x75.
@@ -47,27 +45,31 @@
 			(Upload small images)
 
 	7. Any other fields (optional)
-
-
 	
 On submit store the data in local storage with User_Details collection name.
 ------------------------------------------------------------------------------------------------------------------
 
 4 - Edit User Details														[Done]
+
 	On edit - pull the selected record from localStorage 
 	and populate all the fields in User Form 
 	and then on submit update that record in localStorage.
+	
 ------------------------------------------------------------------------------------------------------------------
 
 5 - Delete the selected record from localStorage.							[Done]
+
 ------------------------------------------------------------------------------------------------------------------
 
 6 - Multiple delete (optional but ++)										[Done]
+
 	Add checkboxes with all the records in listing 
 	and then select multiple records and delete at once.
 	It will add 2 more points.
+	
 ------------------------------------------------------------------------------------------------------------------
 
 7 - UI (optional but +++)													[Done]
+
 	The good UI will add 3 more points.
 ------------------------------------------------------------------------------------------------------------------
