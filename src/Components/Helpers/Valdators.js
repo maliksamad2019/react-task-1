@@ -17,7 +17,7 @@ export const ValidateField = (fieldType, fieldValue, _this) => {
             formFieldsError[fieldType] = (test ? "" : `${fieldType}'s lenght must be between 5 and 10 and should only be alphabits`)
             break;
         case 'email': 
-            test = /([\w.-]+@([\w-]+)\.+\w{2,})/.test(fieldValue); 
+            test = /^([\w.-]+@([\w-]+)\.+\w{2,})/.test(fieldValue); 
             formFieldsError[fieldType] = (test ? "" : `${fieldType} is not in correct formate`)
             break;
         case 'phone': 
@@ -60,6 +60,6 @@ export const CheckForSubmition = (_this) => {
 
 /*
     Names : ^[a-z A-Z]{5,10}$
-    Email:  \b[A-Z0-9._+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b 
+    Email:  ^([\w.-]+@([\w-]+)\.+\w{2,}) 
     Phone: ^(\+92|92|03|0092)\d{10}$ 
 */
