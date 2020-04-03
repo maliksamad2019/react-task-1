@@ -46,7 +46,7 @@
 
 	3. Email
 			(Valid email address) 
-			(Not null)							[ \b[A-Z0-9._+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b ]
+			(Not null)							[ ^([\w.-]+@([\w-]+)\.+\w{2,}) ]
 
 	4. Phone									[ ^(\+92|92|03|0092)\d{10}$ ]
 			(Not null) 
